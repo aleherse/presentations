@@ -3,6 +3,8 @@
 
 # ![80%](media/symfony_black_02.png)
 
+^ Theme: Next, Color: White
+
 ---
 
 # Alejandro Hernández (@aleherse)
