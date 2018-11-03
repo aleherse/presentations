@@ -31,8 +31,10 @@ Esto es, aunque valoramos los elementos de la derecha, valoramos más los de la 
 
 
 ^ Que popularizó las metodologías ágiles como TDD
+
 ^ en 2001 17 personas se reunieron para hablar sobre alternativas a los procesos existentes de desarrollo de software
-^ Desarrollo en cascada no es útil, necesitamos metodologías más ágiles e incrementales 
+
+^ Desarrollo en cascada no es útil, necesitamos metodologías más ágiles e incrementales
 
 ---
 
@@ -45,6 +47,10 @@ Técnica de diseño e implementación de software.
 ^ y por eso se llama TDD
 
 ^ Desarrollo guiado por pruebas
+
+---
+
+![original fit](media/red-green-refactor.png)
 
 ---
 
@@ -106,15 +112,16 @@ public function fromArabic(int $arabic): string
 [refactoring.guru](https://refactoring.guru/refactoring)
 
 ^ paso fundamental y a veces olvidado
+
 ^ consiste en cambiar el código sin modificar el comportamiento
+
 ^ todos los ejemplos deben de seguir pasando
+
 ^ no se debería añadir nuevo comportamiento
+
 ^ La web tiene un curso de pago pero leer las técnicas es gratuito
+
 ^ Todas esas técnicas dan para una charla completa
-
----
-
-![original fit](media/red-green-refactor.png)
 
 ---
 
@@ -125,7 +132,9 @@ public function fromArabic(int $arabic): string
 Funcionalidad desde el punto de vista del usuario
 
 ^ Extremo a extremo
+
 ^ Es lo que el cliente nos ha pedido
+
 ^ Interactua con todo nuestro sistema
 
 ---
@@ -138,8 +147,10 @@ Funcionalidad desde el punto de vista del usuario
 Nuestro código al interactuar con algo externo  
 
 ^ Ya sea framework, librería, base de datos, API
+
 ^ Incluso código que desarrolla otro equipo
-^ Otro microservicio 
+
+^ Otro microservicio
 
 ---
 
@@ -149,11 +160,12 @@ Nuestro código al interactuar con algo externo
 
 ## Integración
 
-## Unitario
+## Unitarias
 
 Nuestros objetos hacen lo que se espera de ellos
 
 ^ TDD entra en esta categoría
+
 ^ se prueba cada objeto por separado
 
 ---
@@ -163,6 +175,7 @@ Nuestros objetos hacen lo que se espera de ellos
 - Implementar únicamente lo que el cliente necesita
 
 ^ Los tests definen el comportamiento
+
 ^ El código debería ser el suficiente para que pasen
 
 ---
@@ -173,6 +186,7 @@ Nuestros objetos hacen lo que se espera de ellos
 - Minimizar el número de errores que llegan a producción
 
 ^ Pruebas de regresión: pruebas anteriores comprueban si la nueva funcionalidad rompe algo
+
 ^ Pueden existir pruebas erróneas o incompletas
 
 ---
@@ -194,13 +208,14 @@ Nuestros objetos hacen lo que se espera de ellos
 - Implementar código modular, reutilizable y adaptable
 - Aumentar la confianza del equipo en el código
 
-^ Los tests aumentan nuestra seguridad en que el código hace lo que debe 
+^ Los tests aumentan nuestra seguridad en que el código hace lo que debe
 
 ---
 
 # TDD es una herramienta más
 
 ^ No es la única técnica de diseño y no todo puede afrontarse con ella
+
 ^ Algunas otras que pueden ayudarnos son
 
 ---
@@ -226,7 +241,9 @@ Scenario: Some determinable business situation
 ```
 
 ^ BDD utiliza un lenguaje llamado Gherkin que es muy legible
+
 ^ Cada uno de esas líneas tendrá código detrás que haga lo que dice
+
 ^ Más adelante haré alguna charla sobre BDD
 
 ---
@@ -237,7 +254,7 @@ Scenario: Some determinable business situation
 
 [eventstorming.com](http://eventstorming.com/)
 
-^ Permite construir un conocimiento común entre los expertos, programadores y testeadores 
+^ Permite compartir y unificar el conocimiento que tenemos del sistema expertos, programadores y testeadores 
 
 ---
 
@@ -248,10 +265,14 @@ Scenario: Some determinable business situation
 [Cynefin for devs by Liz Keogh](https://lizkeogh.com/2012/03/11/cynefin-for-devs/)
 
 ^ Permite categorizar el tipo de trabajo que estamos haciendo
-^ Simple: Cualquiera puede hacerlo, muy estudiado, no va a cambiar. no necesita tests
+
+^ Simple: Cualquiera puede hacerlo, muy estudiado, no va a cambiar. Quizás no necesita tests
+
 ^ Complicado: Predecible aunque require experiencia. Ideal para TDD/BDD
+
 ^ Complejo: Hace falta comunicar, colaborar, poner conocimiento en común, probar alternativas
-^ Caos: Algo grave sobre lo que hay que actuar rápido, ya habrá tiempo de analizar y testear 
+
+^ Caos: Algo grave sobre lo que hay que actuar rápido, ya habrá tiempo de analizar y testear
 
 ---
 
@@ -302,7 +323,9 @@ Scenario: Some determinable business situation
 - No tengas miedo a borrar/mover/modificar código
 
 ^ Cada prueba se convierten en un test de regresión para las siguientes
+
 ^ Modifica el código para mejorar la calidad interna
+
 ^ Si algo deja de funcionar lo sabremos
 
 ---
@@ -314,11 +337,13 @@ Scenario: Some determinable business situation
 - Escribe código que sea cada vez más genérico
 - Refactoriza pensando como un diseñador/arquitecto
 - No tengas miedo a borrar/mover/modificar código
-- Las pruebas son código también, cuídalo 
+- Las pruebas son código también, cuídalo
 
 ^ Mantén limpia tu batería de pruebas
+
 ^ Si es dificil añadir o cambiar tests añade complejidad al proceso
-^ Aunque no hay que llegar a los niveles del código de la aplicación 
+
+^ Aunque no hay que llegar a los niveles del código de la aplicación
 
 ---
 
@@ -345,8 +370,11 @@ $this->getPerson()->getCar()->ignite();
 ```
 
 ^ o Principio del Menor Conocimiento
+
 ^ Habla únicamente con tus colaboradores y no te involucres con extraños
+
 ^ Este comportamiento es dificil de testear porque hay que crear mocks de cada uno de los colaboradores
+
 ^ Hay muchas clases involucradas
 
 ---
@@ -368,6 +396,7 @@ $this->person->startCar();
 ```
 
 ^ Tenemos únicamente un colaborador “person” y le pedimos que arranque el coche, no nos importa cómo se hace
+
 ^ Lo que nos lleva a...
 
 ---
@@ -406,43 +435,52 @@ echo $user->welcomeMessage();
 
 ## The Transformation Priority Premise
 
-- null to constant
-- constant to constant+
-- constant to scalar
-- statement to statements
-- unconditional to if
-- if to while
-- expression to function
-
-^ (nil->constant)  
-^ (constant->constant+) a simple constant to a more complex constant 
-^ (constant->scalar) replacing a constant with a variable or an argument 
-^ (statement->statements) adding more unconditional statements.
-^  (unconditional->if) splitting the execution path
-^  (if->while) 
-^ (expression->function) replacing an expression with a function or algorithm
+| | |
+| --- | --- |
+| null to constant | unconditional to if |
+| constant to constant+ | if to while |
+| constant to scalar | expression to function |
+| statement to statements |
 
 ---
 
 # Kata de los números romanos
 
+ej: 148 => CXLVIII
+
+^ podríamos empezar número a número pero es fácil atrancarse de ese modo 
+
+---
+
+# Kata de los números romanos
+
+ej: 148 => CXLVIII
+
 |  |  |  |
-| ---      | ---       | ---       | 
-|          | 5 => V    |           | 
-| 1 => I   | 6 => VI   | 10 => X   | 
+| ---      | ---       | ---       |
+|          | 5 => V    |           |
+| 1 => I   | 6 => VI   | 10 => X   |
 | 2 => II  | 7 => VII  | 20 => XX  |
 | 3 => III | 8 => VIII | 30 => XXX |
 | 4 => IV  | 9 => IX   | 40 => XL  |
 | 100 => C | 500 => D  | 1000 => M |
 
 ^ 1 a 3 repetimos I
+
 ^ 4 es un poco raro
+
 ^ 5 ponemos una V
+
 ^ 6 a 8 V y repetimos I
+
 ^ 9 es raro
-^ 10, 20, 30 repetimos X 
+
+^ 10, 20, 30 repetimos X
+
 ^ 40 es raro
+
 ^ 50 es similar a V
+
 ^ 100 es similar a I y X
 
 ---
@@ -452,7 +490,8 @@ echo $user->welcomeMessage();
 - Ten en cuenta la curva de aprendizaje
 
 ^ empezar a usarlo es costoso y habrá cosas que no sepas cómo afrontar
-^ Prueba con algo sencillo 
+
+^ Prueba con algo sencillo
 
 ---
 
@@ -461,7 +500,7 @@ echo $user->welcomeMessage();
 - Ten en cuenta la curva de aprendizaje
 - Más tiempo al inicio del proyecto
 
-^ Debes escribir las pruebas y el código, necesitarás más tiempo del habitual 
+^ Debes escribir las pruebas y el código, necesitarás más tiempo del habitual
 
 ---
 
@@ -472,7 +511,8 @@ echo $user->welcomeMessage();
 - Menos tiempo al modificar/añadir funcionalidad
 
 ^ fase de refactor deja un código más limpio
-^ fácil ver que está fallando y donde 
+
+^ fácil ver que está fallando y donde
 
 ---
 
@@ -505,12 +545,17 @@ echo $user->welcomeMessage();
 - [Growing Object-Oriented Software, Guided by Tests](https://www.goodreads.com/book/show/4268826-growing-object-oriented-software-guided-by-tests)
 - [Refactoring: Improving the Design of Existing Code](https://www.goodreads.com/book/show/44936.Refactoring)
 - [The Transformation Priority Premise ](https://blog.8thlight.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html)
-- [Giving up on TDD]( http://blog.cleancoder.com/uncle-bob/2016/03/19/GivingUpOnTDD.html) 
+- [Giving up on TDD]( http://blog.cleancoder.com/uncle-bob/2016/03/19/GivingUpOnTDD.html)
 - [phpspec](http://www.phpspec.net/en/latest/)
 
 ^ Particulidades de phpspec
+
 ^ Una especificación por cada clase
+
 ^ Crea mocks de todos los colaboradores
-^ No sirve para hacer comprobaciones de estado
+
+^ Se basa principalmente en comprobar el paso de mensajes (tb hay estado)
+
 ^ No se pueden testear métodos privados
+
 ^ No sirve para escribir tests de integración
