@@ -2,9 +2,11 @@
 # **TECNOLOGÍA AL SERVICIO**
 # **DE TU CLUB DE JUEGOS**
 
-^ Theme: Next, Color: White
+![](media/intro.jpg)
 
-^ Abrir drive, time tree, appear.in, google maps, guild en BGG
+^ Theme: Next, Color: Blue
+
+^ Abrir enlaces de la última transparencia
 
 ---
 
@@ -12,71 +14,81 @@
 
 ![inline 40%](../common/profile.jpg)
 
-Secretario de la asociación granadina Dragón de Madera
+Socio de la asociación granadina Dragón de Madera
 (+info: dragondemadera.com)
 
 Desarrollador de aplicaciones web, consultor y formador
 (+info: about.me/aleherse)
 
-^ Si tenéis alguna experiencia distinta o alguna otra sugerencia por favor interrumpirme
+^ Llevamos año y medio funcionando, empecé como secretario y ahora me encargo de la parte de tecnología
+^ Si tenéis alguna experiencia distinta o
+^ alguna otra herramienta por favor interrumpidme
 
 ---
 
-# ¿Qué necesita nuestro club de juegos?
+# ¿Qué necesita nuestro club?
 
 * Presencia en internet
 * Almacenar documentos
 * Almacenar fotografías
 * Facilitar la toma de decisiones
 * Agilizar la comunicación
-* Gestionar actividades y eventos
+* Gestionar quedadas
+* Recibir ayudas para OSAL
+
+^ puntos a tratar
+
+^ OSAL Org sin ánimo de lucro
 
 ---
 
-# Presencia en internet (1/3)
+# Presencia en internet
 
-* **Correo:** gmail, hotmail o dominio propio
+* **Correo:** gmail, hotmail, dominio propio...
 
----
-
-# Presencia en internet (1/3)
-
-* **Correo:** gmail, hotmail o dominio propio
-* **Redes sociales:** Twitter, Facebook y Instagram
-
-^ Puedes darte de alta en em mismo sitio varias veces usando un + en tu dirección de gmail
+^ crea cuentas para cargos o grupos, no uses cuentas personales
 
 ---
 
-# Presencia en internet (1/3)
+# Presencia en internet
 
-* **Correo:** gmail, hotmail o dominio propio
-* **Redes sociales:** Twitter, Facebook y Instagram
+* **Correo:** gmail, hotmail, dominio propio...
+* **Redes sociales:** Twitter, Facebook, Instagram...
+
+^ Puedes darte de alta en el mismo sitio varias veces usando un + en tu dirección de gmail
+
+---
+
+# Presencia en internet
+
+* **Correo:** gmail, hotmail, dominio propio...
+* **Redes sociales:** Twitter, Facebook, Instagram...
 * **Ubicación:**
   * Google maps (business.google.com)
   * Bing maps (bingplaces.com)
 
-^ Google https://goo.gl/maps/qEKSwdBP4z12
+^ Enseñar google business
 
 ---
 
-# Presencia en internet: Web sectorial (2/3)
+# Presencia en internet
+## Web sectorial
 
 * boardgamegeek.com
 * labsk.net
-* www.elcornetin.es/blog/directorio
+* metajuego.com
 
-## ¿Conoces alguna otra?
+### ¿Conoces alguna otra?
 
-^ El cornetin es un directorio de entidades frikis de España
-
-^ En la BGG puedes crear tu grupo como una guild a la que se apuntan los miembros y ver la colección de juegos completa https://boardgamegeek.com/guild/2822
+^ Enseñar BGG
+^ En la BGG puedes crear tu grupo como una guild a la que se apuntan los miembros y ver la colección de juegos completa
 
 ^ En esto si que ando un poco más perdido
 
 ---
 
-# Presencia en internet: Web (3/3)
+# Presencia en internet
+## Nuestra web
 
 * Cada club suele tener entre sus socios un experto
 
@@ -84,33 +96,50 @@ Desarrollador de aplicaciones web, consultor y formador
 
 ---
 
-# Presencia en internet: Web (3/3)
+# Presencia en internet
+## Nuestra web
 
 * Cada club suele tener entre sus socios un experto
 * Usar servicios existentes
-  * blogger.com, foroactivo.com
+  * blogger.com, foroactivo.com, squarespace.com
 
 ---
 
-# Presencia en internet: Web (3/3)
+# Presencia en internet
+## Nuestra web
 
 * Cada club suele tener entre sus socios un experto
 * Usar servicios existentes
-  * blogger.com, foroactivo.com
-* Descargar software e instalar en el servidor web
-  * Wordpress, PphBB, Joomla...
+  * blogger.com, foroactivo.com, squarespace.com
+* Descargar software e instalar en un servidor
+  * Wordpress, PphBB, Joomla, Drupal...
 
 ^ mucho más curro hay que pagar o contar con alguien que sepa
 
 ---
 
+# Presencia en internet
+## Nuestra web
+
+* Cada club suele tener entre sus socios un experto
+* Usar servicios existentes
+  * blogger.com, foroactivo.com, squarespace.com
+* Descargar software e instalar en un servidor web
+  * Wordpress, PphBB, Joomla, Drupal...
+* Crear algo a medida
+
+^ Mucho tiempo o dinero, exactamente lo que necesitas
+^ dragondemadera.com es así
+
+---
+
 # Almacenar documentos
 
-* Dropbox o Drive permiten compartir en la nube
+* Dropbox o Drive permiten guardar en la nube
 
 ^ demo de drive con los permisos y reuniones y actas
-
 ^ permisos por carpetas y ficheros a miembros o poseedores de enlaces
+^ problemas con propietarios y permisos
 
 ---
 
@@ -146,26 +175,39 @@ Desarrollador de aplicaciones web, consultor y formador
 
 * **Listas de distribución:** Google groups
 
-^ listas de correo
+^ a través de email quizás algo anticuado
 
 ---
 
 # Facilitar la toma de decisiones
 
 * **Listas de distribución:** Google groups
-* **Foros:** deseable la integración con Tapatalk
+* **Foros:** Foroactivo
 
-^ organizar foro e hilos relevantes
+^ organizar foro e hilos relevantes, un clásico
 
 ---
 
 # Facilitar la toma de decisiones
 
-* **Listas de distribución:** Google groups, Mailchimp
-* **Foros:** deseable la integración con Tapatalk
+* **Listas de distribución:** Google groups
+* **Foros:** Foroactivo
 * **Formularios y encuestas**: Google forms
 
 ^ Entrar al drive y mostrar encuestas en Google forms
+
+---
+
+# Facilitar la toma de decisiones
+
+* **Listas de distribución:** Google groups
+* **Foros:** Foroactivo
+* **Formularios y encuestas**: Google forms
+* **Gestión de proyectos**: Trello, Asana
+
+^ Si la asociación es activa hay eventos, personas y fechas que organizar
+^ Qué publicaciones hacer, quién las redacta, cuando se publican...
+^ Algunas funciones de Asana son de pago
 
 ---
 
@@ -174,6 +216,7 @@ Desarrollador de aplicaciones web, consultor y formador
 * **Mensajería:** WhatsApp, Telegram, Line, Facebook Messenger
 
 ^ Telegram es una de mis favoritas, luego hablaremos más sobre ella
+^ WhatsApp es inmanejable si hay mucha gente o muchos usuarios activos
 
 ---
 
@@ -192,7 +235,8 @@ Desarrollador de aplicaciones web, consultor y formador
 * **Vídeo:** Skype, Appear.in, Hangout
 * **Audio:** Discord, Teamspeak
 
-^ hemos usado el Discord para temas muy específicos y con la junta directiva o el grupo de trabajo nos queda probar para grupos más amplios
+^ hemos usado el Discord para temas muy específicos junta directiva o grupos de trabajo
+^ siempre es mejor una asamblea para asuntos importantes
 
 ---
 
@@ -207,22 +251,98 @@ Desarrollador de aplicaciones web, consultor y formador
 
 ---
 
-# Agilizar la comunicación: Telegram
+# Gestionar quedadas
 
-* Tu número de teléfono no es información pública
+* Usar una hoja de cálculo
 
-^ No requiere que el teléfono esté conectado, sólo es necesario para crear una cuenta
+^ Mostrar el planificador, mucho trabajo
 
 ---
 
-# Agilizar la comunicación: Telegram
+# Gestionar quedadas
+
+* Usar una hoja de cálculo
+* Usar google calendar e integrar con la web
+
+^ No es complicado añadir la información del calendario en tu web, algo menos de trabajo
+
+---
+
+# Gestionar quedadas
+
+* Usar una hoja de cálculo
+* Usar google calendar e integrar con la web
+* Apps como Time Tree o Board Game Zone
+
+^ Tienes que instalarlas y dependes de la funcionalidad implementada
+
+---
+
+# Gestionar quedadas
+
+* Usar una hoja de cálculo
+* Usar google calendar e integrar con la web
+* Apps como Time Tree o Board Game Zone
+* Bot de Telegram @meepsbot
+
+^ Meepsbot es un proyecto en el que estoy trabajando actualmente y del que hablaré al final de la charla
+
+---
+
+# Recibir ayudas para OSAL
+
+* Proyecto dono
+  * Adobe, Microsoft, Vodafone...
+  * Necesitas NIF, estatutos y validación
+
+^ acuerdos con empresas, ofertas de productos tecnológicos para OSALs
+
+---
+
+# Recibir ayudas para OSAL
+
+* Proyecto dono
+  * Adobe, Microsoft, Vodafone...
+  * Necesitas NIF, estatutos y validación
+* Google for nonprofits
+  * G Suite
+
+^ direcciones de correo electrónico ilimitadas en tu dominio desde gmail
+^ team drive espacio compartido para equipos
+^ menos problemas que con drive normal
+
+---
+
+# Recibir ayudas para OSAL
+
+* Proyecto dono
+  * Adobe, Microsoft, Vodafone...
+  * Necesitas NIF, estatutos y validación
+* Google for nonprofits
+  * G Suite
+  * Ad Grants
+
+^ Publicidad gratuita en búsquedas de Google
+
+---
+
+# Ventajas de Telegram
+
+* Tu número de teléfono no es información pública
+
+^ No requiere que el teléfono esté conectado
+^ sólo es necesario para crear una cuenta
+
+---
+
+# Ventajas de Telegram
 
 * Tu número de teléfono no es información pública
 * Clientes nativos para cada plataforma
 
 ---
 
-# Agilizar la comunicación: Telegram
+# Ventajas de Telegram
 
 * Tu número de teléfono no es información pública
 * Clientes nativos para cada plataforma
@@ -230,7 +350,7 @@ Desarrollador de aplicaciones web, consultor y formador
 
 ---
 
-# Agilizar la comunicación: Telegram
+# Ventajas de Telegram
 
 * Tu número de teléfono no es información pública
 * Clientes nativos para cada plataforma
@@ -241,7 +361,7 @@ Desarrollador de aplicaciones web, consultor y formador
 
 ---
 
-# Agilizar la comunicación: Telegram
+# Ventajas de Telegram
 
 * Tu número de teléfono no es información pública
 * Clientes nativos para cada plataforma
@@ -253,92 +373,34 @@ Desarrollador de aplicaciones web, consultor y formador
 
 ---
 
-# Agilizar la comunicación: Telegram
+# Ventajas de Telegram
 
 * Tu número de teléfono no es información pública
 * Clientes nativos para cada plataforma
 * Cifrado y almacenado en la nube
 * Permite crear supergrupos
 * Permite crear canales
-* Múltiples bots
+* Bots para casi todo
 
-^ @groupbutler bot que ayuda en la moderación kicks, bans, anti-flood, saludos, avisos
-
+^ welcomebot saluda a los recién llegados con las normas
 ^ @groupagreebot bot que ayuda a realizar encuesta
-
 ^ demo de telegram, grupos, canales, groupagreebot
 
 ---
+# Meepsbot
 
-# Gestionar quedadas
+**meepsbot.com**
 
-* Usar una hoja de cálculo
+Bot para Telegram que ayuda a gestionar las actividades de tu grupo de juegos.
 
-^ Mostrar el planificador
-
----
-
-# Gestionar quedadas
-
-* Usar una hoja de cálculo
-* Usar google calendar e integrar con la web
-
-^ No es complicado añadir la información del calendario en tu web
+^ Para grupos que ya usan mensajería y tienen uno o más espacios para quedar pero necesitan organizarse
+^ Ahora entra en beta abierta hasta enero del año que viene
+^ suscripción mensual por cada grupo de juegos
+^ versión básica gratuita para eventos
+^ Mostrar web y uso
 
 ---
-
-# Gestionar quedadas
-
-* Usar una hoja de cálculo
-* Usar google calendar e integrar con la web
-* Apps como Time Tree
-
-^ Time Tree http://timetr.ee/dl
-
----
-
-# Gestionar quedadas
-
-* Usar una hoja de cálculo
-* Usar google calendar e integrar con la web
-* Apps como Time Tree
-* Bot de Telegram @meepsbot
-
-^ Meeps es un proyecto en el que estoy trabajando actualmente, está en una etapa muy temprana de desarrollo pero me gustaría que lo probárais durante las jornadas
-
----
-# MeepsBot
-
-meepsbot.com
-
-https://t.me/joinchat/AAAAAEKcBTeo7qnBucKnFg
-
-![right](media/qr_code.jpg)
-
-^ Si estás en #ZL2017 la versión de pruebas de meepsbot.com está en https://t.me/joinchat/AAAAAEKcBTeo7qnBucKnFg, entra y organiza partidas rápidamente
-
-^ Puedes crear tu grupo de juegos y añadir el bot a tantos grupos como quieras, los miembros sólo tienen que unirse al grupo de juegos
-
-^ Por ahora sólo permite proponer actividades para que los miembros del grupo se vayan apuntando
-
-^ La hoja de ruta puede cambiarse dependiendo del uso que quieran darle los usuarios
-
-^ Su uso es gratuito y continuará durante la beta, cuando sea estable mi idea es monetizarlo a través de los grupos y no directamente de los usuarios.
-
----
-
-# MeepsBot
-
-meepsbot.com
-
-https://t.me/joinchat/AAAAAEKcBTeo7qnBucKnFg
 
 # ¿Preguntas?
 
-#  ___
-
 ## @aleherse
-
-![right](media/qr_code.jpg)
-
-^ alguna otra herramienta que uses en tu club?
